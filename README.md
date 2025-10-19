@@ -69,10 +69,8 @@ A Pomodoro video app for students that combines time management, focus, and peer
 
 1. User creates a class → Others joins **“Math Revision Room”**  
 2. Everyone sees a 25-min timer counting down  
-3. Timer ends → 5-min break with video/audio on  
-4. Prompt: *“What did you just study?”*  
-5. User writes: *“Finished Algebra exercises 1-5”*  
-6. Logs saved, next Pomodoro starts  
+3. Timer ends → 5-min break with video/audio on   
+4. Logs saved, next Pomodoro starts  
 
 ## 📖 Usage
 
