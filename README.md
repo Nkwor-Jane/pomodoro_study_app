@@ -67,7 +67,7 @@ A Pomodoro video app for students that combines time management, focus, and peer
 
 ## 🧠 Flow Example
 
-1. User logs in → Joins **“Math Revision Room”**  
+1. User creates a class → Others joins **“Math Revision Room”**  
 2. Everyone sees a 25-min timer counting down  
 3. Timer ends → 5-min break with video/audio on  
 4. Prompt: *“What did you just study?”*  
@@ -84,7 +84,7 @@ A Pomodoro video app for students that combines time management, focus, and peer
    git clone https://github.com/Nkwor-Jane/pomodoro_study_app.git
    cd pomodoro_study_app
 
-2. **Navigate to ckend directory**
+2. **Navigate to backend directory**
 
     ```bash
     cd backend
@@ -101,18 +101,12 @@ A Pomodoro video app for students that combines time management, focus, and peer
    ```bash
    pip install -r requirements.txt
 
-5. **Create .env file:**
-
-   ```bash
-    SUPABASE_DATABASE_PASSWORD=********
-    DATABASE_URL=postgresql://postgres**********************
-
-6. **Run the server:**
+5. **Run the server:**
 
     ```bash
     uvicorn main:app --reload
     
-7. **API Endpoint:**
+6. **API Endpoint:**
 
     ```bash
     POST http://localhost:8000/
